@@ -1,0 +1,50 @@
+.slider2{
+    background-image: url(./img/blog.jpg);
+}
+.articles{
+    padding: 100px 0;
+}
+.article__blog a h5{
+    color: #0F6458;
+}
+.article__blog a{
+    text-decoration: none;
+}
+.article__blog img{
+    border-radius: 6px;
+}
+
+.article__icon{
+    margin-bottom: 15px;
+    color: gray;
+}
+.article__desc p{
+    color: gray;
+    font-size: 18px;
+}
+
+.page-link{
+    font-size: 18px;
+    color: black;
+    /* display: block; */
+    width: 45px;
+    height: 45px;
+    /* background-color: #0F6458; */
+    border: 1px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    margin: 0 4px;
+}
+.page-link.active{
+    background-color: #0F6458;
+    color: white;
+}
+.page-link:hover{
+    background-color: #0F6458;
+    color: white;
+}
+
+.pagination{
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.slider2{
+    background-image: url(./img/services.jpg);
+    padding: 200px 0;
+}
+@media screen and (max-width:600px){
+    .slider2{
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width:450px){
+    .slider2{
+        padding: 60px 0;
+    }
+}

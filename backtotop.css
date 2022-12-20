@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+.backToTop{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width:50px;
+    height:50px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height:50px;
+    /* bình thường sẽ ẩn, và có độ mờ là 0*/ 
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.backToTop:hover{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+.backToTop.active{
+/* khi active nó sẽ hiện và có opacity ( độ mờ là 1) nó sẽ hiện ra chậm do có transition ở trên 0.5s  */
+    visibility: visible;
+    opacity: 1;
+}

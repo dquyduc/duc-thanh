@@ -1,0 +1,46 @@
+.slider2{
+    background-image: url(./img/contact.jpg);
+}
+label{
+    cursor: pointer;
+}
+.contact{
+    padding: 100px 0;
+}
+textarea{
+    resize: none;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 30px!important;
+}
+.btn-Message{
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: #0F6458;
+    font-weight: bold;
+    color: white;
+    transition: .3s;
+    margin-top: 20px;
+}
+.btn-Message:hover{
+    opacity: 0.5;
+}
+.contact__table{
+    margin-bottom: 100px;
+}
+.contact__link{
+    padding: 70px 50px;
+    background: url(./img/bg-pattern.svg) no-repeat center left / contain;
+    background-color: #ffcd8c;
+    border-radius: 10px;
+}
+.contact__link h3{
+    color: #0F6458;
+}
+.contact__link a{
+    color: black;
+    font-size: 16.5px;
+    text-decoration: underline;
+}

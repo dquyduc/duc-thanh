@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL  */
+.btn-register {
+    background-color: #ffcd8c;
+    border-radius: 30px;
+}
+
+.btn-download {
+    background-color: #0F6458;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn {
+    transition: .4s;
+}
+
+.btn:hover {
+    transform: scale(0.95);
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    color: #0F6458;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.title p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.fa-bars {
+    font-size: 23px;
+    color: #0F6458;
+}
+
+.nav-link {
+    color: black;
+    margin: 0 12px;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: #0F6458;
+}
+
+::selection {
+    background-color: #0F6458;
+    color: white;
+}
+
+.slider {
+    padding: 80px 0;
+    background-image: url(./img/1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #ffffff 0%, #0f645979 100%);
+
+}
+
+.slider h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    color: #0F6458;
+}
+
+.slider p {
+    color: #0F6458;
+}
+
+.slider .btn-signUp {
+    background-color: #0F6458;
+    border-radius: 30px;
+    color: white;
+    padding: 8px 22px;
+    font-size: 18px;
+}
+
+.slider .btn-download2 {
+    border: 1px solid #0F6458;
+    border-radius: 30px;
+    padding: 8px 22px;
+    color: #0F6458;
+    font-size: 18px;
+}
+
+.introduce {
+    margin-top: 100px;
+}
+
+.introduce__content {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.introduce__content .col-3 i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.introduce__content .row:hover i {
+    background-color: #0F6458;
+    color: white;
+}
+
+.introduce__content .row {
+    margin-bottom: 60px;
+}
+
+.choice .title h2 {
+    font-size: 60px;
+}
+
+.choice__desc {
+    padding-right: 100px;
+}
+
+.choice__option i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #0f645852 !important;
+    border-radius: 50%;
+    color: #0F6458;
+}
+
+.choice__option p {
+    font-size: 18px;
+}
+
+.choice__desc a {
+    display: inline-block;
+    margin-top: 30px;
+    color: #0F6458;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.care .title h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.care .title p {
+    color: #0F6458;
+}
+
+.care .title p a {
+    background-color: #189b8a57;
+    color: #0F6458;
+    text-decoration: dashed;
+}
+
+.care__desc {
+    padding-left: 100px;
+}
+
+.care__desc a:nth-child(2) {
+    color: #0F6458;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.prevention {
+    margin-bottom: 100px;
+}
+
+.title h2 {
+    font-size: 60px;
+}
+
+.download .title p {
+    margin: 40px 0;
+    color: #0F6458;
+}
+.download {
+    background: url(./img/bg-pattern.svg) no-repeat center left / contain;
+    background-color: #ffcd8c;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.download__right .phone1 {
+    padding-top: 41px;
+}
+
+.service {
+    padding: 50px 0;
+}
+
+.service .row .service__item {
+    padding: 50px;
+
+}
+
+.service .row .service__item:nth-child(1) {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.service .row .service__item:nth-child(2) {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.service .row .service__item:nth-child(3) {
+    border-bottom: 1px solid black;
+}
+
+.service .row .service__item:nth-child(4) {
+    border-right: 1px solid black;
+}
+
+.service .row .service__item:nth-child(5) {
+    border-right: 1px solid black;
+}
+
+.service .row .service__item i {
+    font-size: 40px;
+    color: #0F6458;
+    margin-bottom: 20px;
+}
+
+.subcription__cost .btn {
+    padding: 10px 48px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subscription {
+    margin-bottom: 80px;
+}
+
+.subscription .container {
+    background-color: #0f645934;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.subcription__cost h2 {
+    font-size: 60px;
+    color: #0F6458;
+}
+
+.subcription__cost p {
+    color: grey;
+}
+
+.subscription__desc h4 {
+    color: #0F6458;
+    margin-bottom: 20px;
+}
+
+.subscription__desc .row {
+    border-top: 1px solid #0f64593f;
+    padding-top: 40px;
+}
+
+.subscription__option {
+    margin: 10px 0;
+}
+
+.subscription__option i {
+    margin-right: 15px;
+}
+
+.btn-downloadApp2 {
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+/* màn hình bé hơn 991.98 px thì  */
+@media screen and (max-width: 991.98px) {
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .navbar-collapse {
+        background-color: #189b8a1c;
+        border-radius: 10px;
+    }
+
+    .prevention {
+        margin-top: 50px;
+    }
+
+    .choice__desc {
+        padding-right: 15px;
+    }
+
+    .choice .title h2 {
+        font-size: 34px;
+    }
+
+    .care .title h2 {
+        font-size: 34px;
+    }
+
+    .service .row .service__item:nth-child(1) {
+        border-right: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .service .row .service__item:nth-child(2) {
+        border-right: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .service .row .service__item:nth-child(3) {
+        border-bottom: 1px solid black;
+    }
+
+    .service .row .service__item:nth-child(4) {
+        border-right: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .service .row .service__item:nth-child(5) {
+        border-bottom: 1px solid black;
+        border-right: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 767.98px) {
+    .care__desc {
+        padding-left: 10px;
+    }
+
+    .download .phone2 {
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .slider h1 {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+    .care__desc {
+        padding-left: 15px;
+    }
+
+    .download .phone2 {
+        padding-top: 20px;
+    }
+
+}
